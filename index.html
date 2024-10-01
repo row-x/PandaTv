@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PandaTv</title>
+    <link rel="stylesheet" href="style.css">
+    <!----Font awesome cdn  font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+     <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a"></i>
+                    <div class="logo-text">PandaTv</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                 <div class="hero-pic">
+                    <img src="logo2.jpg" alt="profile pic">
+                 </div>
+                 <div class="hero-text">
+                    <h5>PandaTv Service : <span class="input">PandaTv Download Android APK</span></h5>
+                    <h1>PandaTv</h1>
+                    <p> হ্যালো দর্শক,
+                           আমার নাম (PandaTV) এই অ্যাপটির মাধ্যমে আপনি সব ধরনের নতুন মুভি এবং অ্যাডাল্ট মুভি দেখতে ও ডাউনলোড করতে পারবেন।
+                           তাই এখনই ডাউনলোড করুন PandaTv
+                    </p>
+
+                    <div class="btn-group">
+                       <a href="/PandaTv App/PandaTv.apk" class="btn active">Download App</a>
+                       <a href="https://www.facebook.com/ur.nahid.bd" class="btn">Contact</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="https://www.facebook.com/ur.nahid.bd"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                        <a href="#"><i class="fa-brands fa-pintrest"></i></a>
+                        
+                        <p> অ্যাপ টি দেখতে যেমন হবে নিচে কিছু ছবি দেয়া আছে ।</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+     </div>
+     <!---typed js for typing text effect-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+     <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["New Movie , Film","All Country Adult Film & Web series","Now Download Android APK"],
+            typedSpeed:70,
+            backSpeed:55,
+            loop:true
+        })
+     </script>
+</body>
+</html>
+<body bgcolor="#212121">
+     <div class="hero-text">
+     <h1> Walcome Page <h1/>
+     <p align="center">
+     <img src='1.jpg' style="height:650px;width:300px;" >
+</p>
+     <h1> Home Page<h1/>
+     <p align="center">
+<img src='2.jpg' style="height:650px;width:300px;" >
+</p>
+     <h1>3 Line Bar<h1/>
+     <p align="center">
+<img src='3.jpg' style="height:650px;width:300px;" >
+</p>
+     <h1>Private Channel<h1/>
+     <p align="center">
+<img src='4.jpg' style="height:650px;width:300px;" >
+</p>
+     <h1>Public Global Chat<h1/>
+     <p align="center">
+<img src='5.jpg' style="height:650px;width:300px;" >
+</p>
